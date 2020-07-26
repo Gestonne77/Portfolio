@@ -9,10 +9,10 @@ nav{
     justify-content: space-around;
     align-items: center;
     min-height: 8vw;
-    background-color: teal;
+    background-color: black;
     font-family: fantasy;
 }#logo-text{
-    color: white;
+    color: yellow;
     text-transform: uppercase;
     letter-spacing: 5px;
     font size: 20px;
@@ -30,13 +30,13 @@ nav{
 
 
     .nav-links a{
-        color: tomato;
+        color: yellow;
         text-decoration: none;}
 
         .burger div{
             width: 25px;
             height: 3px;
-            background-color: white;
+            background-color: yellow;
             margin: 5px;
         }
 
@@ -48,7 +48,7 @@ nav{
 /* This code is for mobile view */
 @media screen and (max-width: 768px){
     body{
-        /* display:none ; */
+         /* display:none;  */
         overflow-x: hidden;
     }
 
@@ -57,7 +57,7 @@ nav{
         right: 0px;
         height: 92vh;
         top: 8vh;
-        background-color: teal;
+        background-color: black;
         font-family: serif;
         display: flex;
         flex-direction: column;
